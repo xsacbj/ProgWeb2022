@@ -125,3 +125,13 @@ a{
     background-color: #ccc;
     border-radius: 10px;
 }
+
+.bl-article{
+    width: 50%;
+    margin: 20px 0;
+}
+
+.bl-article ul{
+    list-style: none;
+}
+

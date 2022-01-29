@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PW@Formulário de Contato</title>
+
+    <link rel="stylesheet" href="../CSS/formullario-contato.styles.css">
+
+</head>
+<body>
+    <h1>Formulário de Contato</h1>
+    <form>
+        <fieldset>
+            <legend>Dados Básicos</legend>
+            <label for="nome">
+                Nome
+                <input type="text" name="nome" placeholder="Nome"/>
+            </label>
+            <label >
+                E-mail
+                <input type="email" name="email" placeholder="E-mail"/>
+            </label>
+            <label>
+                Website
+                <input type="text" name="website" placeholder="Website"/>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Seu curso no Instituto de Computação</legend>
+            <label>
+                <input type="radio" name="curso" value="CC"/>
+                Ciência da Computação
+            </label>
+            <label>
+                <input type="radio" name="curso" value="SI"/>
+                Sistemas de Informação
+            </label>
+            <label>
+                <input type="radio" name="curso" value="TI"/>
+                Engenharia da Computação
+            </label>
+        </fieldset>
+
+        <fieldset id="linguagens-group">
+            <legend>Assinale as linguagens já usadas por você</legend>
+            <label>
+                <input type="checkbox" name="linguagens[]" value="Java"/>
+                Java
+            </label>
+            <label>
+                <input type="checkbox" name="linguagens[]" value="C"/>
+                C
+            </label>
+            <label>
+                <input type="checkbox" name="linguagens[]" value="C++"/>
+                C++
+            </label>
+            <label>
+                <input type="checkbox" name="linguagens[]" value="Perl"/>
+                Perl
+            </label>
+            <label>
+                <input type="checkbox" name="linguagens[]" value="Python"/>
+                Python
+            </label>
+            <label>
+                <input type="checkbox" name="linguagens[]" value="Javascript"/>
+                Javascript
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados Complementares</legend>
+            <label>
+                Cor favorita
+                <input type="color" name="cor"/>
+            </label>
+            <label>
+                Data de nascimento
+                <input type="date" name="data"/>
+            </label>
+            <label>
+                Ano de entrada em seu curso do icomp
+                <input type="number" name="entrada" step="1" value="2022" min="1980" max="2022"/>
+            </label>
+            <label>
+                Nota para este site
+                <input type="range" name="nota" value="4" min="0" max="5"/>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Área de atuação</legend>
+            <select name="area" id="area">
+                <option value="1">Banco de Dados</option>
+                <option value="2">Educação a Distância</option>
+                <option value="3">Engenharia de Software</option>
+                <option value="4">Otimização</option>
+                <option value="5">Programação para a Web</option>
+                <option value="6">Recuperação de Informação</option>
+                <option value="7">Redes de Computadores</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Submeta seu curriculo vitae</legend>
+            <input type="file" name="curriculo">
+        </fieldset>
+
+        <fieldset>
+            <legend>Escreva sua mensagem</legend>
+            <textarea name="comentarios" rows="8" cols="100"></textarea>
+        </fieldset>
+
+        <section class="options">
+            <button>Resetar Dados</button>
+            <button>Envar Mensagem</button>
+        </section>
+    </form>
+    <footer>
+        <span>Desenvolvido por &ThinSpace;<b>Sérgio Augusto</b></span>
+        <span>Email para contato: &ThinSpace;
+            <address>
+                <a href="mailto:sacbj@icomp.ufam.br">
+                    sacbj@icomp.ufam.br
+                </a>
+            </address>
+        </span>
+    </footer>
+</body>
+</html>
