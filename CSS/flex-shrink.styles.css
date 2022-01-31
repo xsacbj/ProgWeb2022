@@ -1,0 +1,31 @@
+#content {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+  
+  #content div {
+    flex-basis: 150px;
+    border: 3px solid rgba(0,0,0,.2);
+  }
+  
+  .box {
+    flex-shrink: 1;
+  }
+  
+  .box1 {
+    flex-shrink: 4;
+  }
+
+  code{
+    font-size: 1rem;
+    font-style: italic;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    padding: 1px;
+  }
+
+  p{
+      text-align: center;
+      margin-bottom: 54px;
+  }
