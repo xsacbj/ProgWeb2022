@@ -1,0 +1,8 @@
+O padrão MVC define uma arquitetura modular ao sistema. 
+Apesar de simples, o padrão separa as responsabilidades de um recurso em 3 partes bem definidas: Model, View e Controller.
+O principal benefício é poder isolar as regras de negócio da interface do usuário, permitindo que páginas e serviços 
+tenham uma manutenção mais simples e maior escalbilidade da aplicação. Com maior flexibilidade e reuso de classes é fácil perceber
+os motivos de ser um dos padões mais utilizados no mercado.
+A interface é definida pela View, os dados e informações são ditados pelo Model e o Controller realiza a comunicação entre essas duas
+camadas.
+
