@@ -1,3 +1,5 @@
+Comentários: Todos os erros foram relatados corretamente
+
 Linha 4: comentários devem ser colocados entre '<!-- -->' e não entre '/* */';
 Linha 8 e 9: a estilização de um elemento segue um padrão de 'chave:valor' e não 'chave = valor';
 Linha 17: a tag <strong> nunca foi fechada;
